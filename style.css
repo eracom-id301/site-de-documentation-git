@@ -1,10 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
 
-
-
-img:hover {
-    opacity: 0.3;
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
-
 
 header {
 padding: 100px;
@@ -13,12 +12,20 @@ justify-content: center;
 background-color:rebeccapurple;
 }
 
+header h1 {
+  font-family: "Sigmar One", cursive;
+  font-size: 5vw;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+
 #galerie {
 background-color:dodgerblue ;
 padding: 30px;
 }
-
-
 
 ul {
   list-style: none;
@@ -40,7 +47,6 @@ li img {
   grid-auto-flow: dense;
 }
 
-
 #map{
 background-color:gold;
 padding: 30px;
@@ -59,4 +65,6 @@ footer {
     padding: 30px;
 }
 
-
+footer form input[type="button"] {
+  color: black;
+}

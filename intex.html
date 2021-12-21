@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <header>
       <h1>Karaoke Bar</h1>
     </header>
+  
+  <section id="galerie"> 
     <ul class="gallery">
       <li>
         <img src="https://1904.cc/i/w/64.jpeg" alt="Image de Genzeureux" />
@@ -52,7 +55,9 @@
         <img src="https://1904.cc/i/w/76.jpeg" alt="Image de Genzeureux" />
       </li>
     </ul>
-
+    </section>
+  
+<section id="map"> 
     <h3>Nous trouver</h3>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1121.2863988604834!2d6.626117875484192!3d46.52732480201326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e25f80bf2f5%3A0x56caeaa60d6f6aa8!2sFondation%20Henri%20Joyet%20Vulliamoz%2C%20ancien%20boursier%20communal!5e0!3m2!1sfr!2sch!4v1640098344513!5m2!1sfr!2sch"
@@ -63,11 +68,25 @@
       loading="lazy"
     >
     </iframe>
-
+  </section>
+  
+<section id="horaires"> 
     <h3>Horaires</h3>
     <h5>Vendredi - Samedi</h5>
     <h5>19h00 - 2h00</h5>
     <h5>Karaoké dès 22h00</h5>
+  </section>
+
+  <footer id="contact" >
+  <form action="/action_page.php">
+    <label for="courriel">Courriel :</label>
+    <input type="courriel" id="courriel" name="courriel"><br>
+    <label for="message"> Message :</label>
+    <input type="message" id="message" name="message"><br>
+    <input type="Envoyer" value="Envoyer">
+  </form> 
+</footer>
+    
   </body>
   <script src="script.js"></script>
 </html>
